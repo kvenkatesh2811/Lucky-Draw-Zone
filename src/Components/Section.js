@@ -1,4 +1,3 @@
-import React, { Children } from "react";
 const Section = (props) => {
   console.log("section props", props);
   const { title, children } = props;
