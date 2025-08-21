@@ -1,0 +1,12 @@
+.memberCard {
+  margin: 10px;
+  background-color: orange;
+  color: white;
+  padding: 20px;
+  box-shadow: 0px 2px 8px rgb(87, 86, 86);
+  /* gap: 20px;*/
+}
+.member-sub-heading {
+  color: blue;
+  font-weight: bold;
+}

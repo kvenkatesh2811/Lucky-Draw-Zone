@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import AboutUs from "./Components/AboutUs/AboutUs";
+import Member from "./Components/Members/Member";
+import "./App.css";
+import Header from "./Components/Header/Header";
+import MemberList from "./Components/MemberList/MemberList";
+import Section from "./Components/Section";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <h1 style={{ backgroundColor: "blue", textAlign: "center" }}>
+        Friends Forever
+      </h1> */}
+      <Header />
+      <div className="center-screen">
+        {/* <AboutUs /> */}
+        <Section title="AboutUS">
+          <AboutUs />
+        </Section>
+
+        <Section title="Members">
+          <MemberList />
+        </Section>
+        {/* <Member name="venky" city="Hyderabad" />
+        <Member name="Ram" city="yemmiganur" />
+        <Member name="madhu" city="yemmiganur" /> */}
+      </div>
     </div>
   );
-}
+};
 
 export default App;
