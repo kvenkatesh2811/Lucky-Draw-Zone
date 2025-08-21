@@ -1,6 +1,5 @@
 import React from "react";
 import AboutUs from "./Components/AboutUs/AboutUs";
-import Member from "./Components/Members/Member";
 import "./App.css";
 import Header from "./Components/Header/Header";
 import MemberList from "./Components/MemberList/MemberList";
