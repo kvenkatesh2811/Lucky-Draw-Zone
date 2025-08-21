@@ -15,26 +15,3 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-{
-  /* <h1 class="heading">Friends Forever</h1> */
-}
-{
-  /* <div className="container">
-  {people.map(function (value) {
-    console.log(value);
-    return <App name={value.name} city={value.city} />;
-  })}
-  </div> */
-}
-{
-  /* <App name={"venky"} city={"yemmiganur"} />
-<App name={"madhu"} city={"mumbai"} /> */
-}
-{
-  /* <App />  */
-}
-{
-  /*  <Member name={"venky"} city={"yemmiganur"} />
- <Member name={"madhu"} city={"yemmiganur"} /> */
-}
